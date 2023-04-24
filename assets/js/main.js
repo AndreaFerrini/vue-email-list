@@ -10,7 +10,9 @@ const { createApp } = Vue
 
 createApp({
   data(){
-    
+    return {
+        emailRandom: []
+    }
   },
   mounted(){
 

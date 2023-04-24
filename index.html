@@ -11,8 +11,10 @@
 <body>
     <div id="app">
         <div class="container">
-            <button class="btn btn-primary mt-3" @click="myFunction()">Genera 10 indirizzi email</button>
-
+            <button class="btn btn-primary mt-3" @click="myFunction()">Genera 10 indirizzi email</button> 
+            <ul class="mt-3" v-for="(element) in emailRandom">
+                <li class="text-success bg-warning">{{element}}</li>
+            </ul>
 
         </div>
 
